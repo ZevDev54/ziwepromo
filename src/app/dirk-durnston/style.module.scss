@@ -1,5 +1,5 @@
-$background-darker: #05070d;
-$background-lighter: #131926;
+$background-darker: #070707;
+$background-lighter: #101010;
 
 $white-text-darker: #ffffff;
 
@@ -14,8 +14,8 @@ $description-color: #645e7a;
 .background {
     background: linear-gradient(
       to top,           /* Direction of the gradient*/
-      #05070d,            /*  Starting color*/
-      #131926             /* Ending color*/
+      $background-darker,            /*  Starting color*/
+      $background-lighter            /* Ending color*/
     );
     background-size: cover;
     margin: 0;

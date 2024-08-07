@@ -7,7 +7,7 @@ export default function Home() {
     <main>
       <div className={styles.incrediblemancontainer}>
         <Image
-        src="/images/durnston/DirkDurnstonNoBackground.png" 
+        src="/images/durnston/DirkDurnston.jpg" 
         height={819/2}
         width={970/2}
         alt="The one and only Dirk Durnston."></Image>
