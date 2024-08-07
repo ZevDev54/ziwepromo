@@ -1,0 +1,11 @@
+module.exports = {
+    async redirects() {
+      return [
+        {
+          source: '/',
+          destination: '/home',
+          permanent: true, // Set to true for a 308 redirect (permanent) or false for a 307 redirect (temporary)
+        },
+      ]
+    },
+  }
