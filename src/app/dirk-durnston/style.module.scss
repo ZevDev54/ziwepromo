@@ -1,0 +1,51 @@
+$background-darker: #05070d;
+$background-lighter: #131926;
+
+$white-text-darker: #ffffff;
+
+$description-color: #645e7a;
+
+// .background {
+//     background: linear-gradient(0deg, $background-darker, $background-lighter);
+//     // background-color: $background-darker;
+
+// }
+
+.background {
+    background: linear-gradient(
+      to top,           /* Direction of the gradient*/
+      #05070d,            /*  Starting color*/
+      #131926             /* Ending color*/
+    );
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh
+  }
+
+.main {
+    // display: flex;
+    // flex-direction: column;
+    text-align: center;
+}
+
+.whitetext{
+    color: #ffffff;
+}
+
+.topcardcontainer{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description{
+    color: $description-color;
+}
+
+.incredible-man-container{
+    display: flex;
+    flex-direction: right;
+    justify-content: flex-end;
+}
