@@ -23,7 +23,7 @@ export default function Home() {
     <main>
       <h1 className={squada.className}>Mule meat</h1>
       <h2 className={squada.className}>What you have been craving.</h2>
-      <h2 className={squada.className}>This page is under cosntruction. You'll have to hold out a bit longer for mule meat!</h2>
+      <h2 className={squada.className}>This page is under cosntruction. You will have to hold out a bit longer for mule meat!</h2>
 
     
     </main>
