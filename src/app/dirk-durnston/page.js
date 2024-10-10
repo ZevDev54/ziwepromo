@@ -22,7 +22,7 @@ export default function Home() {
     <main className={merriweather.className}>
       <div className={styles.inspiringBanner}>
         <Image
-          src="/images/durnston/DirkHouseCroppedForBanner.jpg" 
+          src="/images/durnston/DirkHouseCroppedForBanner.jpg"
           // fill={true}
           width={1843}
           height={676}
@@ -32,23 +32,16 @@ export default function Home() {
           //   /images/durnston/DirkDurnston.jpg 500w,
           //   /images/durnston/DirkHouseCroppedForBanner.jpg 800w
           // "
-
-
           objectFit="contain"
-          
-          // priority
-
           // layout="fill"
           className={styles.Banner}
-
           alt="The one and only Dirk Durnston in his lovely home office.">
-          </Image>
+        </Image>
 
-         
 
 
       </div>
-{/* 
+      {/* 
       <div className={styles.imageContainer}>
         <Image
           source={require}
@@ -74,9 +67,43 @@ export default function Home() {
         <h1 className={`${styles.header}`}>Dirk Durnston here.</h1>
         <h2 className={styles.subheader}>Ready for real estate action.</h2>
         <p className={styles.paragraph}>This page is under construction. The full Dirk Durnston experience is so close that we can smell it!</p>
+        
+
+
+        <div className={styles.housePicContainter}>
+
+          <Image
+            src="/images/durnston/potties/ScenicPotty1.jpg"
+            width={612}
+            height={406}
+
+            objectFit="contain"
+            className={styles.housePic}
+
+            alt="A lovely hilltop property.">
+          </Image>
+          <Image
+            src="/images/durnston/potties/ScenicPotty2.jpg"
+            width={612}
+            height={406}
+
+            objectFit="contain"
+            className={styles.housePic}
+
+            alt="A lovely hilltop property.">
+          </Image>
+          <Image
+            src="/images/durnston/potties/ScenicPotty3.jpg"
+            width={612}
+            height={406}
+
+            objectFit="contain"
+            className={styles.housePic}
+
+            alt="A lovely hilltop property.">
+          </Image>
+        </div>
         <p className={styles.italics}>Partner with Pioneer Sanitation group.</p>
-
-
       </div>
     </main>
   );

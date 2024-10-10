@@ -14,15 +14,11 @@ $description-color: #645e7a;
 .background {
     
 
-    background: linear-gradient(
-      to top,           /* Direction of the gradient*/
-      $background-darker,            /*  Starting color*/
-      $background-lighter            /* Ending color*/
-    ) fixed;
+    background: #fff5e9;
     background-size: cover;
     margin: 0;
     padding: 0;
-    height: 200vh;
+    height: 100vh;
 
 
     margin-left: 0px; 
@@ -112,7 +108,7 @@ $description-color: #645e7a;
 
 .header{
     @extend .goldText;
-    font-size: min(100px, 20vw);
+    font-size: 5rem;
 
 }
 
@@ -130,19 +126,6 @@ $description-color: #645e7a;
     font-size: 0.75rem;
     font-style: italic;
     color: #717171;
-}
-
-.housePicContainer{
-    display: flex;
-    flex-direction: column;
-}
-
-.housePic{
-    // margin: rem;
-    // margin: max();
-    margin: 1rem;
-    width: max(200px, 30vw);
-    height: auto;
 }
 
 

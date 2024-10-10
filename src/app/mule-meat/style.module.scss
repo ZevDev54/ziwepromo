@@ -27,119 +27,13 @@ $description-color: #645e7a;
     margin-top: 0px;
   }
 
-.body{
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-
-.main {
-    display: flex;
-    flex-direction: column;
+  .body{
     text-align: center;
+    margin: 5vw;
+  }
 
-    margin-left: 0px; 
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-
-.whitetext{
-    color: #ffffff;
-}
-
-.topcardcontainer{
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.description{
-    color: $description-color;
-}
-
-// .incredible-man-container{
-// display: flex;
-//     flex-direction: right;
-//     justify-content: flex-end;
-// }
-
-.inspiringBanner{
-    position: relative;
-    // position: absolute;
-    // top: 0;
-    // left: 0;
-
-    // width: 100vw;
-    // height: 36.68vw;
-    
-
-    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 95%, transparent 100%);
-}
-
-.Banner{
-    width: 100vw;
+  .muleMascot{
+    margin: 1rem;
+    width: max(200px, 30vw);
     height: auto;
-    // min-width: 500px;
-    overflow: hidden;
-}
-
-//used the good ole 'gpt
-.goldText{
-    background: -webkit-linear-gradient(to top, #5d4f0f, #ffe373); /* Old versions of Chrome and Safari */
-    background: linear-gradient(to top, #5d4f0f, #ffe373); /* Standard syntax */
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
-}
-
-.whiteGradient{
-    background: -webkit-linear-gradient(to top, #717171, #d9d9d9); /* Old versions of Chrome and Safari */
-    background: linear-gradient(to top, #717171, #d9d9d9); /* Standard syntax */
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
-}
-
-.header{
-    @extend .goldText;
-    font-size: 5rem;
-
-}
-
-.subheader{
-    @extend .whiteGradient;
-    font-size: 3rem;
-}
-
-.paragraph{
-    font-size: 1.5rem;
-    color: #d9d9d9;
-}
-
-.italics{
-    font-size: 0.75rem;
-    font-style: italic;
-    color: #717171;
-}
-
-
-//  /* Ensure the container fits the page width */
-//  .image-container {
-//     width: 100%;
-//     max-width: 100%;
-//     overflow: hidden;
-//     text-align: center; /* Optional: centers the image horizontally */
-// }
-
-// /* Make the image fill the container width while maintaining aspect ratio */
-// .image-container img {
-//     width: 100%;
-//     height: auto;
-//     display: block;
-// }
+  }
