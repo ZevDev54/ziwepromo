@@ -31,6 +31,11 @@ module.exports = {
             destination: '/teen-pests', // New URL
             permanent: true, // Set to true for a 301 redirect
         },
+        {
+          source: '/northsea', // Old URL
+          destination: '/north-sea', // New URL
+          permanent: true, // Set to true for a 301 redirect
+      }
       ];
     },
   };
