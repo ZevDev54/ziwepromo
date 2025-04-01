@@ -64,7 +64,7 @@ export default function Home() {
 
         <div className={styles.housePicContainter}>
 
-          <Image
+          {/* <Image
             src="/images/durnston/potties/ScenicPotty1.jpg"
             width={612}
             height={406}
@@ -93,7 +93,7 @@ export default function Home() {
             className={styles.housePic}
 
             alt="A lovely hilltop property.">
-          </Image>
+          </Image> */}
         </div>
         {/* <p className={styles.italics}>Partner with Pioneer Sanitation group.</p> */}
       </div>
