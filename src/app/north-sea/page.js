@@ -47,7 +47,7 @@ export default function Home() {
 
         <p className={`${styles.paragraph} ${pirateScroll.className}`}>
 
-          The king and his men<br />Stole the queen from her bed<br />And bound her in her bones<br />The seas be ours<br />Beyond the powers<br />Where we will, we'll rule
+          The king and his men<br />Stole the queen from her bed<br />And bound her in her bones<br />The seas be ours<br />Beyond the powers<br />Where we will, we-ll rule
           
           
           <br/> <br/>Yo, ho, all hands<br />Hoist the colours high<br />Heave ho, thieves and beggars<br />Never shall we die
